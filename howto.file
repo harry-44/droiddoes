@@ -1,0 +1,6 @@
+1) Install from play store https://play.google.com/store/apps/details?id=burrows.apps.busybox&hl=en
+2) Click install busybox
+3) Open a shell and type su....grant permission on phone
+4) In shell type "export PATH=$PATH:/data/data/burrows.apps.busybox/app_busybox; export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/data/data/burrows.apps.busybox/app_busybox"
+5) Make sure youre still su. run busybox mount -o rw,remount system
+6) Profit?
